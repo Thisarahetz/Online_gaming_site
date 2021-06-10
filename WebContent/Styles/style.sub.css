@@ -1,0 +1,476 @@
+.nav-anim-bar{
+    background-image: linear-gradient(to right, #0f122b, #182C61,#6D214F, #B33771);
+    background-size: 500% 200%;
+
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    animation: animBarEffect 2s infinite;
+}
+
+
+.content form table{
+    position: relative;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.content form table tr td{
+    text-align: start;
+    vertical-align: top;
+}
+
+.content form table tr td:first-child{
+    width: 150px;
+    padding-top: 10px;
+}
+
+.content form table tr td input,textarea,select{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #444444;
+    background: #f3f3f3;
+    border-radius: 4px;
+    height: 30px;
+    transition: .2s;
+}
+
+input,textarea{
+}
+
+select,option{
+    cursor: url("../Cursors/tap.png"), auto;
+}
+
+.content form table tr td button{
+    position: relative;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #444444;
+    background: #e5aeff;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    transition: .2s;
+}
+
+.content form table tr td button:focus{
+    color: #fff;
+    background: #6D214F;
+}
+
+.content form table tr td span{
+    position: relative;
+    margin: 0 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+textarea::after{
+    content: 'Hello';
+    z-index: 900;
+    width: 50%;
+    height: 20px;
+    background: #000;
+}
+
+option{
+    margin-top: 5px;
+    height: 30px;
+}
+
+.content form table tr td input:focus,textarea:focus{
+    border: 2px solid #6D214F;
+    background: #fff;
+}
+
+.content form table tr td input:hover,textarea:hover{
+    border: 1px solid #B33771;
+}
+
+.sml{width: 100px;}
+.qtr{width: 200px;}
+.half{width: 450px;}
+.full{width: 100%;}
+.h300{height: 200px;}
+
+#previewBox{
+    position: absolute;
+    padding: 10px;
+    right: 0px;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #444444;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: -1px 1px 15px 0px rgba(0,0,0,0.15);
+}
+
+#previewBox span{
+    font-family:'Lucida Console', monospace;
+} 
+
+
+#previewBox h1,h2{
+    position: relative;
+    padding: 8px 5px 5px 5px;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    background: #444444;
+    color: #ffffff;
+}
+
+#previewBox h4{
+    position: relative;
+    padding: 5px 5px 3px 5px;
+    font-size: 12px;
+    font-family: kmblight;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    color: #7c7c7c;
+}
+
+#previewBox p{
+    position: relative;
+    padding: 15px 5px;
+    font-size: 15px;
+    font-family: kmbreg;
+    box-sizing: border-box;
+    color: #000;
+}
+
+
+pre{
+    position: unset;
+    display: flex;
+    background: #ececec;
+    border: 1px solid #d1d1d1;
+    font-size: 13px;
+    margin: 3px;
+    color: #444444;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 4px 2px 4px;
+    line-height: 20px;
+}
+
+#previewBox .lvl{
+    margin: 0;
+    font-size: 18px;
+    line-height: 0px;
+}
+
+/***********************************************************************************************************
+Account Seller
+***********************************************************************************************************/
+
+.body-image{
+    background-image: url("Images/Account/sell_bg.jpg");
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.my-backgroud{
+    background-position: center;
+  background-size: cover;
+  background-image: url("../Images/Account/wallpaperflare.com_wallpaper.jpg");
+  min-height: 100%;
+  position:relative;
+}
+
+.p{
+    padding: 20px 100px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+    
+.postback{
+    background-size: cover;
+    position: fixed;
+    min-height: 200px;
+    width: 110vw;
+    top: 0px;
+    left: -100px;
+    z-index: -10;
+    filter: blur(2px) grayscale(70%) brightness(50%);
+}
+
+
+.main__jumbotron__warpper__left {
+    margin: auto;
+    width: 80%;
+    
+    padding: 80px;
+}
+.main__jumbotron__warpper__title {
+    font-size: 61px;
+    font-weight: bold;
+    font-family: sans-serif;
+    max-width: 762px;
+    padding-top: 80px;
+    
+    
+}
+
+.pont-withe{
+    color: white;
+}
+
+
+
+.sell-content{
+   background: #8d8403;
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.sell-btn-panel{
+   
+    position: relative;
+        padding-bottom: 200px;
+        margin-top: 200px;
+        margin-left: 71px;
+    width: auto;
+    height: auto;
+    left: 23%;
+}
+
+.sell-btn{
+    position: relative;
+    width: 300px;
+    height: auto;
+    font-size: 16px;
+    margin: 2px;
+    padding: 8px;
+    background: #1cf38f;
+    border: none;
+    transition: .5s;
+}
+
+.sell-btn:hover{
+    background: #d35400;
+}
+
+.search-result__title {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.container_new {
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.search-result {
+    display: inline-block;
+    width: calc(100% - 84px);
+    background: #fff;
+    border-radius: 4px 0 0 4px;
+    position: relative;
+    border-right: 1px solid #2d2e30;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: none;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #a4acb3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/PUBG.jpg");
+    padding: 180px;
+    
+    
+  }
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/nfs.jpg");
+    padding: 180px;
+    background-size: 600px;
+  
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/cr.jpg");
+    background-size: 600px;
+    
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/cos2.jpg");
+    background-size: 600px;
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  } .grid-item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/cod.jpg");
+    padding: 180px;
+    background-size: 500px;
+    font-size: 30px;
+    text-align: center;
+  } .grid-item5 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/asph.jpg");
+    background-size: 600px;
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  } .grid-item6 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/asc.webp");
+    background-size: 600px;
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  } .grid-item7 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Games/a.jpg");
+    background-size: 600px;
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item8 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(250, 250, 250, 0.8);
+    background-image: url("../Images/Account/wallpaperflare.com_wallpaper.jpg");
+    padding: 180px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  mark { 
+    background-color: yellow;
+    color: black;
+    font-size: 10px;
+
+  }
+
+  /***********************sell Account***********************/
+
+  .account_size{
+    border: 2px solid rgb(78, 231, 224);
+    border-radius: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+
+}
+.one_account{
+
+    disply: flex;
+    border: #000;
+    font-size: 15px;
+}
+.vote-star {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    width: 70px;
+    height: 14px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../Images/Account/stars1.png) repeat-x 0 -15px;
+}
+
+
+.account-post{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    margin: 5px 0;
+    border: 2px solid #6F1E51;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.cont-one,.cont-two,.cont-three,.cont-four,.cont-five{
+    position: relative;
+    padding: 8px;
+    min-height: 25px;
+    
+    
+}
+
+.cont-one{
+    width: 40%;
+    text-align: justify;
+}
+
+.cont-two{
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cont-three{
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cont-four{
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cont-five{
+    width: 15%;
+    text-align: center;
+}
+
+
+.buttonBuy {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

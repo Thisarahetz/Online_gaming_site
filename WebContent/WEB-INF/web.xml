@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.gameAccount.LoginSeveralat</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/logincheck</url-pattern>
+	</servlet-mapping>
+	
+		   	   <servlet>
+		<servlet-name>mybutton</servlet-name>
+		<servlet-class>com.gameAccount.UsermanageSeverlat</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mybutton</servlet-name>
+		<url-pattern>/buttonClic</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	
+		<servlet-name>gameInsert</servlet-name>
+		<servlet-class>com.gameAccount.SellaccountSeverlat</servlet-class>
+		
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>gameInsert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	   </servlet-mapping>
+	   
+	   
+	   	   <servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>com.gameAccount.UpdateCousSeverlat</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	   
+	   
+</web-app>
